@@ -10,54 +10,58 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    557368,       9444]
-NotebookOptionsPosition[    538165,       9061]
-NotebookOutlinePosition[    551613,       9355]
-CellTagsIndexPosition[    551570,       9352]
+NotebookDataLength[    565854,       9691]
+NotebookOptionsPosition[    546718,       9309]
+NotebookOutlinePosition[    560165,       9603]
+CellTagsIndexPosition[    560122,       9600]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell["Title", "Title",
+Cell["The genetic code is not random", "Title",
  CellChangeTimes->{{3.700774153171832*^9, 3.700774159196458*^9}, {
-  3.716902403353675*^9, 
-  3.716902404538095*^9}},ExpressionUUID->"755e0098-9782-4df5-8299-\
+   3.716902403353675*^9, 3.716902404538095*^9}, 
+   3.739232148709873*^9},ExpressionUUID->"755e0098-9782-4df5-8299-\
 7f54266c54d6"],
 
-Cell["One sentence description of topic.", "Abstract",
+Cell["\<\
+Current genetic table is optimized to support mutational changes and minimize \
+the functional effect.\
+\>", "Abstract",
  CellChangeTimes->{{3.700774172671139*^9, 3.700774220850109*^9}, {
    3.700778895632181*^9, 3.700778896308676*^9}, {3.716902409622859*^9, 
    3.7169024154226503`*^9}, 3.7354828213821573`*^9, {3.73548464781948*^9, 
-   3.735484648712131*^9}, {3.735587270504136*^9, 
-   3.735587272381384*^9}},ExpressionUUID->"db4efd27-b72d-4835-a486-\
+   3.735484648712131*^9}, {3.735587270504136*^9, 3.735587272381384*^9}, {
+   3.7392327887091703`*^9, 3.7392328739582376`*^9}, {3.739232908272347*^9, 
+   3.7392329173164454`*^9}},ExpressionUUID->"db4efd27-b72d-4835-a486-\
 b18956bba0cb"],
 
-Cell["Author Name, Jun. 24,  2018", "AuthorInfo",
+Cell["Said Munoz-Montero, Jun. 29,  2018", "AuthorInfo",
  CellChangeTimes->{{3.7360942820567207`*^9, 3.736094285334813*^9}, {
   3.736098860672957*^9, 3.7360988944763517`*^9}, {3.7360990983398457`*^9, 
   3.736099107824772*^9}, {3.736099251923992*^9, 3.7360993016054573`*^9}, {
   3.7368685297868023`*^9, 3.736868530751481*^9}, {3.736868726576907*^9, 
   3.7368687285334053`*^9}, {3.7368690514137907`*^9, 3.736869059546919*^9}, {
-  3.736869099634509*^9, 
-  3.73686915397053*^9}},ExpressionUUID->"59a63784-4e95-46b9-9a1d-\
+  3.736869099634509*^9, 3.73686915397053*^9}, {3.739232762014645*^9, 
+  3.739232772097808*^9}},ExpressionUUID->"59a63784-4e95-46b9-9a1d-\
 2c013f47161b"],
 
 Cell["", "Text",ExpressionUUID->"85271f44-5b04-421c-bf31-0395fab10c35"],
 
 Cell[TextData[{
- "Write a 3-5 sentence basic introduction of the topic, particularly why it\
-\[CloseCurlyQuote]s interesting. Note that the title should be as \
-straightforward as possible (Rhythmic Timelines, ",
+ "Write a 3-5 sentence basic introduction of the topic, particularly why it's \
+interesting. Note that the title should be as straightforward as possible \
+(Rhythmic Timelines, ",
  StyleBox["not:",
   FontWeight->"Bold"],
  " Sonifying ",
  StyleBox["Clave son \[Dash] ",
   FontSlant->"Italic"],
  "Exploring Musical Rhythm), so the introduction provides the opportunity to \
-elaborate and engage the reader. Don\[CloseCurlyQuote]t make the subjects \
-overly general\[LongDash]have them match the specificity of the content."
+elaborate and engage the reader. Don't make the subjects overly general\
+\[LongDash]have them match the specificity of the content."
 }], "Text",
  CellChangeTimes->{{3.700774312865305*^9, 3.700774350341485*^9}, 
    3.716902427754265*^9, 3.7354828504054613`*^9, {3.735483653472313*^9, 
@@ -65,8 +69,8 @@ overly general\[LongDash]have them match the specificity of the content."
    3.7355873998710403`*^9, 3.73558761257386*^9}, {3.736099062603284*^9, 
    3.736099062938388*^9}, 3.738588402126446*^9, {3.738588473865753*^9, 
    3.738588479696198*^9}, {3.738588515044569*^9, 
-   3.738588515882841*^9}},ExpressionUUID->"99ddfba3-f2e4-48aa-a886-\
-7472bbc581ac"],
+   3.738588515882841*^9}},ExpressionUUID->"63c1aa50-289e-41c4-b1cc-\
+727690aa80a0"],
 
 Cell[CellGroupData[{
 
@@ -79,28 +83,279 @@ Cell["Section Header ", "Section",
    3.736094380388455*^9}},ExpressionUUID->"35feb7e4-4e93-4e64-abc0-\
 7b0b86e8128f"],
 
-Cell[TextData[StyleBox["Start by explaining the basics ...",
- FontColor->GrayLevel[0.5],
- Background->GrayLevel[1]]], "Text",
+Cell[TextData[{
+ StyleBox["In the coding protein of the DNA molecules, genetic information is \
+encoded in three bases called triplets or codons. Every codon encodes the \
+information for one amino acid and every amino acid can be encoded by one or \
+more codons. The genetic code is the biochemical system that establishes the \
+rules by which the nucleotide sequence of a gene is transcribed into the mRNA \
+codon sequence and next the mRNA is translated into the amino acid sequence \
+of the corresponding protein. The genetic code is an extension of the \
+four-letter alphabet found in DNA molecules. These \"letters\" are the DNA \
+bases: adenine, guanine, cytosine, and thymine, usually denoted ",
+  FontSize->18,
+  FontColor->GrayLevel[0.5],
+  Background->GrayLevel[1]],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["A",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "41816b8f-8631-424b-8ab3-ae8ea832ebb9"],
+ StyleBox[", ",
+  FontSize->18,
+  FontColor->GrayLevel[0.5],
+  Background->GrayLevel[1]],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["G",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "b1ca985c-1733-4107-9def-58e897903533"],
+ StyleBox[", ",
+  FontSize->18,
+  FontColor->GrayLevel[0.5],
+  Background->GrayLevel[1]],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["C",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "05ffd6e6-136d-43a7-9fa4-94c1c8417256"],
+ StyleBox[", and ",
+  FontSize->18,
+  FontColor->GrayLevel[0.5],
+  Background->GrayLevel[1]],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["T",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "14df075e-e1c8-4141-9b3c-aae8ec33481a"],
+ StyleBox[", respectively (in RNA, ",
+  FontSize->18,
+  FontColor->GrayLevel[0.5],
+  Background->GrayLevel[1]],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["T",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "9622ce05-55d2-4243-b1ed-79d3f74963fd"],
+ StyleBox[" is changed to ",
+  FontSize->18,
+  FontColor->GrayLevel[0.5],
+  Background->GrayLevel[1]],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["U",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "c58e745d-b943-480a-9e31-46f975468aef"],
+ StyleBox[", uracil). They are paired according to the following rule (Watson\
+\[Dash]Crick base pairings): ",
+  FontSize->18,
+  FontColor->GrayLevel[0.5],
+  Background->GrayLevel[1]],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    StyleBox["G",
+     FontSlant->"Plain"], ":", 
+    StyleBox["C",
+     FontSlant->"Plain"]}], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "66427807-034d-4797-88d0-34a97da5d6be"],
+ StyleBox[", ",
+  FontSize->18,
+  FontColor->GrayLevel[0.5],
+  Background->GrayLevel[1]],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    StyleBox["A",
+     FontSlant->"Plain"], ":", 
+    StyleBox["T",
+     FontSlant->"Plain"]}], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "1f37f8c0-57e3-41c8-9e0d-60c98d7cb79e"],
+ StyleBox[". The base ",
+  FontSize->18,
+  FontColor->GrayLevel[0.5],
+  Background->GrayLevel[1]],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["G",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "cc760ab5-390f-4216-91bc-8b5486be7f61"],
+ StyleBox[" is the complementary base of ",
+  FontSize->18,
+  FontColor->GrayLevel[0.5],
+  Background->GrayLevel[1]],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["C",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "961c9608-f749-4812-9132-a1e2819365bc"],
+ StyleBox[", and ",
+  FontSize->18,
+  FontColor->GrayLevel[0.5],
+  Background->GrayLevel[1]],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["A",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "904be55c-4f9f-4b88-a12e-296c469eb898"],
+ StyleBox[" is the complementary base of ",
+  FontSize->18,
+  FontColor->GrayLevel[0.5],
+  Background->GrayLevel[1]],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["T",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "42b4454f-97ce-4305-a299-de3153ed2212"],
+ StyleBox[" (or ",
+  FontSize->18,
+  FontColor->GrayLevel[0.5],
+  Background->GrayLevel[1]],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["U",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "1614d65c-74c7-4167-8c08-fdde62e30189"],
+ StyleBox[") in the DNA (or RNA) molecule and vice-versa. The standard \
+genetic code table is\n\nAs the central dogma of molecular biology says, our \
+DNA undergoes processes that make it into an RNA sequence (Transcription), \
+and the latter to an amino acid sequence (Translation); amino acids then fold \
+into proteins.\n\tThe aim of this project is to model the primary RNA \
+transcript \[RightArrow]mRNA\[RightArrow]Amino Acid Sequence pipeline.",
+  FontSize->18,
+  FontColor->GrayLevel[0.5],
+  Background->GrayLevel[1]]
+}], "Text",
  CellChangeTimes->{{3.7354837220663652`*^9, 3.735483751473709*^9}, {
    3.735486262485011*^9, 3.735486288116446*^9}, {3.735486386471116*^9, 
    3.735486438104398*^9}, {3.735486495412992*^9, 3.7354864964790583`*^9}, {
    3.735587802145555*^9, 3.735587813514737*^9}, {3.7360943822773247`*^9, 
-   3.736094388427802*^9}, 
-   3.73686856877357*^9},ExpressionUUID->"55ddc81f-fcf7-4026-af30-\
+   3.736094388427802*^9}, 3.73686856877357*^9, 
+   3.7392333994708853`*^9},ExpressionUUID->"55ddc81f-fcf7-4026-af30-\
 c2c4c901f21b"],
 
-Cell["\<\
-One way to start into your exposition is to explain how the basic idea works. \
-If it is a formula, provide the math. If it is an algorithm, describe the \
-steps. If it is an experiment, set up assumptions and provide definitions.\
-\>", "Text",
+Cell[TextData[{
+ StyleBox["In the coding protein of the DNA molecules, genetic information is \
+encoded in three bases called triplets or codons. Every codon encodes the \
+information for one amino acid and every amino acid can be encoded by one or \
+more codons. The genetic code is the biochemical system that establishes the \
+rules by which the nucleotide sequence of a gene is transcribed into the mRNA \
+codon sequence and next the mRNA is translated into the amino acid sequence \
+of the corresponding protein. The genetic code is an extension of the \
+four-letter alphabet found in DNA molecules. These \
+\[OpenCurlyDoubleQuote]letters\[CloseCurlyDoubleQuote] are the DNA bases: \
+adenine, guanine, cytosine, and thymine, usually denoted ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["A",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "42ed49e2-805d-4469-8a67-de4ec6649a73"],
+ StyleBox[", ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["G",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "b9cb9297-2d25-4380-b847-af157f667c71"],
+ StyleBox[", ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["C",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "3bb34b22-b3c9-43b2-98e8-5ce1c07ff8af"],
+ StyleBox[", and ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["T",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "1e3a3d15-4783-4153-bd38-94abe5119d8f"],
+ StyleBox[", respectively (in RNA, ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["T",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "27979e14-da95-4ac2-adef-cd71543458b4"],
+ StyleBox[" is changed to ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["U",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "637c9d0e-a5bc-46c4-a763-1aa09137db24"],
+ StyleBox[", uracil). They are paired according to the following rule (Watson\
+\[Dash]Crick base pairings): ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    StyleBox["G",
+     FontSlant->"Plain"], ":", 
+    StyleBox["C",
+     FontSlant->"Plain"]}], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "245871e3-c4c7-427b-9d35-57916bcba676"],
+ StyleBox[", ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    StyleBox["A",
+     FontSlant->"Plain"], ":", 
+    StyleBox["T",
+     FontSlant->"Plain"]}], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "ed5f2780-3238-48c0-887e-f85da9dfdb82"],
+ StyleBox[". The base ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["G",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "880eac25-cc19-4958-8b9c-6cc2da92145d"],
+ StyleBox[" is the complementary base of ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["C",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "541ee93c-660c-4aca-bf18-13afdac1ee3f"],
+ StyleBox[", and ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["A",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "01a1ef14-4ada-4a2a-901d-f88674f2f9d0"],
+ StyleBox[" is the complementary base of ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["T",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "7d84c194-5ca8-4495-b60b-0f73a05501eb"],
+ StyleBox[" (or ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   StyleBox["U",
+    FontSlant->"Plain"], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "fc7f7a6f-40b8-4709-a2e0-beea1bb2d68d"],
+ StyleBox[") in the DNA (or RNA) molecule and vice-versa. The standard \
+genetic code table is\n\nAs the central dogma of molecular biology says, our \
+DNA undergoes processes that make it into an RNA sequence (Transcription), \
+and the latter to an amino acid sequence (Translation); amino acids then fold \
+into proteins.\n\tThe aim of this project is to model the primary RNA \
+transcript \[RightArrow]mRNA\[RightArrow]Amino Acid Sequence pipeline.",
+  FontSize->18]
+}], "Text",
  CellChangeTimes->{{3.7354837220663652`*^9, 3.735483751473709*^9}, {
    3.735486262485011*^9, 3.735486288116446*^9}, {3.735486386471116*^9, 
    3.735486438104398*^9}, {3.735486495412992*^9, 3.7354864964790583`*^9}, {
    3.735587802145555*^9, 3.735587813514737*^9}, {3.7360943822773247`*^9, 
-   3.736094388427802*^9}, 
-   3.736868570517212*^9},ExpressionUUID->"dc3fa30d-000e-45b8-9f6e-\
+   3.736094388427802*^9}, 3.736868570517212*^9, 
+   3.739233390600037*^9},ExpressionUUID->"dc3fa30d-000e-45b8-9f6e-\
 f2ffca697a75"],
 
 Cell["\<\
@@ -278,18 +533,11 @@ Cell["Author contact information", "Section",
   3.736868791070746*^9}},ExpressionUUID->"a78f6e4f-dbdf-4763-a44f-\
 16569b36e665"],
 
-Cell["emailaddress@author.com", "Text",
- CellChangeTimes->{{3.736868810717331*^9, 
-  3.736868830235566*^9}},ExpressionUUID->"44146aed-2d19-4c66-bfba-\
-1e67f1c1dfb3"],
-
-Cell["\<\
-(We recommend using your wolfram ID, but any address where you would like to \
-be contacted about this publication should work.)\
-\>", "Text",
- CellChangeTimes->{{3.736868838667325*^9, 
-  3.736868890391745*^9}},ExpressionUUID->"a4e585e2-fad1-40ff-85de-\
-7b4c754eae54"]
+Cell["said3427@gmail.com", "Text",
+ CellChangeTimes->{{3.736868810717331*^9, 3.736868830235566*^9}, {
+  3.7392329384676037`*^9, 
+  3.739232942059548*^9}},ExpressionUUID->"44146aed-2d19-4c66-bfba-\
+1e67f1c1dfb3"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -9060,8 +9308,8 @@ Cell["Include Function Repository (mention coming soon)", "Item",
 }, Open  ]]
 },
 WindowSize->{980, 1043},
-WindowMargins->{{Automatic, 124}, {Automatic, 0}},
-FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+WindowMargins->{{70, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 7, \
 2018)",
 StyleDefinitions->Notebook[{
    Cell[
@@ -9340,7 +9588,7 @@ StyleDefinitions->Notebook[{
        StyleData["CellLabel"], LineSpacing -> {1, 1}, AutoNumberFormatting -> 
        False, FontSize -> 9, FontSlant -> "Oblique"]}, Open]]}, Visible -> 
   False, FrontEndVersion -> 
-  "11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, 2018)", 
+  "11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 7, 2018)", 
   StyleDefinitions -> "PrivateStylesheetFormatting.nb"]
 ]
 (* End of Notebook Content *)
@@ -9355,93 +9603,92 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 197, 4, 141, "Title",ExpressionUUID->"755e0098-9782-4df5-8299-7f54266c54d6"],
-Cell[780, 28, 402, 6, 47, "Abstract",ExpressionUUID->"db4efd27-b72d-4835-a486-b18956bba0cb"],
-Cell[1185, 36, 525, 8, 44, "AuthorInfo",ExpressionUUID->"59a63784-4e95-46b9-9a1d-2c013f47161b"],
-Cell[1713, 46, 71, 0, 34, "Text",ExpressionUUID->"85271f44-5b04-421c-bf31-0395fab10c35"],
-Cell[1787, 48, 1060, 20, 80, "Text",ExpressionUUID->"99ddfba3-f2e4-48aa-a886-7472bbc581ac"],
+Cell[580, 22, 246, 4, 141, "Title",ExpressionUUID->"755e0098-9782-4df5-8299-7f54266c54d6"],
+Cell[829, 28, 580, 10, 47, "Abstract",ExpressionUUID->"db4efd27-b72d-4835-a486-b18956bba0cb"],
+Cell[1412, 40, 578, 8, 44, "AuthorInfo",ExpressionUUID->"59a63784-4e95-46b9-9a1d-2c013f47161b"],
+Cell[1993, 50, 71, 0, 34, "Text",ExpressionUUID->"85271f44-5b04-421c-bf31-0395fab10c35"],
+Cell[2067, 52, 1026, 20, 80, "Text",ExpressionUUID->"63c1aa50-289e-41c4-b1cc-727690aa80a0"],
 Cell[CellGroupData[{
-Cell[2872, 72, 431, 7, 71, "Section",ExpressionUUID->"35feb7e4-4e93-4e64-abc0-7b0b86e8128f"],
-Cell[3306, 81, 525, 9, 34, "Text",ExpressionUUID->"55ddc81f-fcf7-4026-af30-c2c4c901f21b"],
-Cell[3834, 92, 655, 11, 57, "Text",ExpressionUUID->"dc3fa30d-000e-45b8-9f6e-f2ffca697a75"],
-Cell[4492, 105, 495, 9, 31, "CodeText",ExpressionUUID->"6047e34c-4783-4ed0-b0de-5328517365be"],
-Cell[4990, 116, 370, 8, 28, "Input",ExpressionUUID->"6a57f104-ade9-4e69-9c46-f4f2c59d53ab"]
+Cell[3118, 76, 431, 7, 71, "Section",ExpressionUUID->"35feb7e4-4e93-4e64-abc0-7b0b86e8128f"],
+Cell[3552, 85, 5238, 149, 349, "Text",ExpressionUUID->"55ddc81f-fcf7-4026-af30-c2c4c901f21b"],
+Cell[8793, 236, 4484, 122, 349, "Text",ExpressionUUID->"dc3fa30d-000e-45b8-9f6e-f2ffca697a75"],
+Cell[13280, 360, 495, 9, 31, "CodeText",ExpressionUUID->"6047e34c-4783-4ed0-b0de-5328517365be"],
+Cell[13778, 371, 370, 8, 28, "Input",ExpressionUUID->"6a57f104-ade9-4e69-9c46-f4f2c59d53ab"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5397, 129, 358, 6, 71, "Section",ExpressionUUID->"69c2789e-757d-42de-8e7a-aa67a7c35b9d"],
-Cell[5758, 137, 375, 6, 34, "Text",ExpressionUUID->"7de5c4c6-a64b-46a1-a690-20421acf8327"],
-Cell[6136, 145, 675, 11, 80, "Text",ExpressionUUID->"0ed2d935-e8ff-4c05-9e95-1dd6631482fc"],
-Cell[6814, 158, 347, 7, 31, "CodeText",ExpressionUUID->"7a9ac988-03a4-4c18-9dca-ea7cdc6e168b"],
-Cell[7164, 167, 387, 8, 28, "Input",ExpressionUUID->"e3998e4d-7b72-4f12-ab60-8520725af581"]
+Cell[14185, 384, 358, 6, 71, "Section",ExpressionUUID->"69c2789e-757d-42de-8e7a-aa67a7c35b9d"],
+Cell[14546, 392, 375, 6, 34, "Text",ExpressionUUID->"7de5c4c6-a64b-46a1-a690-20421acf8327"],
+Cell[14924, 400, 675, 11, 80, "Text",ExpressionUUID->"0ed2d935-e8ff-4c05-9e95-1dd6631482fc"],
+Cell[15602, 413, 347, 7, 31, "CodeText",ExpressionUUID->"7a9ac988-03a4-4c18-9dca-ea7cdc6e168b"],
+Cell[15952, 422, 387, 8, 28, "Input",ExpressionUUID->"e3998e4d-7b72-4f12-ab60-8520725af581"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[7588, 180, 287, 5, 71, "Section",ExpressionUUID->"363992ed-65d6-4a46-9388-9c42d41918e4"],
-Cell[7878, 187, 320, 6, 34, "Text",ExpressionUUID->"847150e1-f1fb-45c6-bb18-d5b8ffe48274"],
-Cell[8201, 195, 256, 6, 34, "Text",ExpressionUUID->"72b00745-65c9-40a3-989b-179e50d3deb4"],
-Cell[8460, 203, 196, 3, 34, "Text",ExpressionUUID->"07a294c8-d560-41d7-aec1-7445f654a5af"],
+Cell[16376, 435, 287, 5, 71, "Section",ExpressionUUID->"363992ed-65d6-4a46-9388-9c42d41918e4"],
+Cell[16666, 442, 320, 6, 34, "Text",ExpressionUUID->"847150e1-f1fb-45c6-bb18-d5b8ffe48274"],
+Cell[16989, 450, 256, 6, 34, "Text",ExpressionUUID->"72b00745-65c9-40a3-989b-179e50d3deb4"],
+Cell[17248, 458, 196, 3, 34, "Text",ExpressionUUID->"07a294c8-d560-41d7-aec1-7445f654a5af"],
 Cell[CellGroupData[{
-Cell[8681, 210, 185, 4, 32, "Item",ExpressionUUID->"b5519c04-e2e4-4505-a54a-8df97103ae45"],
-Cell[8869, 216, 180, 4, 32, "Item",ExpressionUUID->"58353971-131b-4608-9bad-c0a5c8ccf17e"],
-Cell[9052, 222, 182, 4, 32, "Item",ExpressionUUID->"3bc41f26-e44b-4b03-b3ba-f5d883976292"],
-Cell[9237, 228, 194, 4, 32, "Item",ExpressionUUID->"582cc902-e58a-4afb-9a4f-3af0ea087d5c"],
-Cell[9434, 234, 191, 4, 32, "Item",ExpressionUUID->"eee72a75-5365-4c2e-a5a0-d968bf2c3d75"],
-Cell[9628, 240, 162, 3, 32, "Item",ExpressionUUID->"290fe97f-54b2-4f66-8d35-b942dc571b6f"]
+Cell[17469, 465, 185, 4, 32, "Item",ExpressionUUID->"b5519c04-e2e4-4505-a54a-8df97103ae45"],
+Cell[17657, 471, 180, 4, 32, "Item",ExpressionUUID->"58353971-131b-4608-9bad-c0a5c8ccf17e"],
+Cell[17840, 477, 182, 4, 32, "Item",ExpressionUUID->"3bc41f26-e44b-4b03-b3ba-f5d883976292"],
+Cell[18025, 483, 194, 4, 32, "Item",ExpressionUUID->"582cc902-e58a-4afb-9a4f-3af0ea087d5c"],
+Cell[18222, 489, 191, 4, 32, "Item",ExpressionUUID->"eee72a75-5365-4c2e-a5a0-d968bf2c3d75"],
+Cell[18416, 495, 162, 3, 32, "Item",ExpressionUUID->"290fe97f-54b2-4f66-8d35-b942dc571b6f"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9839, 249, 262, 4, 71, "Section",ExpressionUUID->"9da19663-7179-45c9-8160-ad35832309c2"],
-Cell[10104, 255, 390, 6, 34, "Text",ExpressionUUID->"45c45f6e-321c-4ce7-9657-950c1134d308"],
-Cell[10497, 263, 391, 7, 34, "Text",ExpressionUUID->"974d1d02-3f81-4f9f-a141-4f1608fd9d6a"]
+Cell[18627, 504, 262, 4, 71, "Section",ExpressionUUID->"9da19663-7179-45c9-8160-ad35832309c2"],
+Cell[18892, 510, 390, 6, 34, "Text",ExpressionUUID->"45c45f6e-321c-4ce7-9657-950c1134d308"],
+Cell[19285, 518, 391, 7, 34, "Text",ExpressionUUID->"974d1d02-3f81-4f9f-a141-4f1608fd9d6a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[10925, 275, 171, 3, 71, "Section",ExpressionUUID->"a78f6e4f-dbdf-4763-a44f-16569b36e665"],
-Cell[11099, 280, 165, 3, 34, "Text",ExpressionUUID->"44146aed-2d19-4c66-bfba-1e67f1c1dfb3"],
-Cell[11267, 285, 278, 6, 34, "Text",ExpressionUUID->"a4e585e2-fad1-40ff-85de-7b4c754eae54"]
+Cell[19713, 530, 171, 3, 71, "Section",ExpressionUUID->"a78f6e4f-dbdf-4763-a44f-16569b36e665"],
+Cell[19887, 535, 211, 4, 34, "Text",ExpressionUUID->"44146aed-2d19-4c66-bfba-1e67f1c1dfb3"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[11582, 296, 306, 6, 172, "Chapter",ExpressionUUID->"a91b0c22-4606-4122-bf19-3d4bcd746f4c"],
+Cell[20135, 544, 306, 6, 172, "Chapter",ExpressionUUID->"a91b0c22-4606-4122-bf19-3d4bcd746f4c"],
 Cell[CellGroupData[{
-Cell[11913, 306, 155, 3, 48, "Subsection",ExpressionUUID->"962879f3-9b11-4b56-8992-fa4001376df9"],
+Cell[20466, 554, 155, 3, 48, "Subsection",ExpressionUUID->"962879f3-9b11-4b56-8992-fa4001376df9"],
 Cell[CellGroupData[{
-Cell[12093, 313, 272, 6, 32, "Item",ExpressionUUID->"b3427a02-3677-4bad-9b20-ec368b2905ec"],
-Cell[12368, 321, 344, 8, 53, "Item",ExpressionUUID->"c71531d5-ba0e-426d-a059-99a04254deb5"]
+Cell[20646, 561, 272, 6, 32, "Item",ExpressionUUID->"b3427a02-3677-4bad-9b20-ec368b2905ec"],
+Cell[20921, 569, 344, 8, 53, "Item",ExpressionUUID->"c71531d5-ba0e-426d-a059-99a04254deb5"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[12761, 335, 204, 4, 48, "Subsection",ExpressionUUID->"f46ef323-e1f9-43b8-b626-fa17b9c9a91b"],
+Cell[21314, 583, 204, 4, 48, "Subsection",ExpressionUUID->"f46ef323-e1f9-43b8-b626-fa17b9c9a91b"],
 Cell[CellGroupData[{
-Cell[12990, 343, 320, 6, 53, "Item",ExpressionUUID->"ea23b79f-765b-42fd-9028-584c74887728"],
-Cell[13313, 351, 161, 3, 32, "Item",ExpressionUUID->"efe3aa25-9466-4a2b-b6d3-fa8f03061bb0"]
+Cell[21543, 591, 320, 6, 53, "Item",ExpressionUUID->"ea23b79f-765b-42fd-9028-584c74887728"],
+Cell[21866, 599, 161, 3, 32, "Item",ExpressionUUID->"efe3aa25-9466-4a2b-b6d3-fa8f03061bb0"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[13523, 360, 208, 4, 48, "Subsection",ExpressionUUID->"d6c5abda-8183-41cc-9f3d-132ba5a38cb4"],
+Cell[22076, 608, 208, 4, 48, "Subsection",ExpressionUUID->"d6c5abda-8183-41cc-9f3d-132ba5a38cb4"],
 Cell[CellGroupData[{
-Cell[13756, 368, 270, 6, 32, "Item",ExpressionUUID->"cf1ecc4d-7888-432a-999b-b3ea8aab11ad"],
-Cell[14029, 376, 170, 3, 32, "Item",ExpressionUUID->"9103d1b3-e09b-40b2-9ae9-c1d98f778dbc"]
+Cell[22309, 616, 270, 6, 32, "Item",ExpressionUUID->"cf1ecc4d-7888-432a-999b-b3ea8aab11ad"],
+Cell[22582, 624, 170, 3, 32, "Item",ExpressionUUID->"9103d1b3-e09b-40b2-9ae9-c1d98f778dbc"]
 }, Open  ]],
-Cell[14214, 382, 220, 4, 31, "CodeText",ExpressionUUID->"c270f9fc-8abd-4f24-9579-de6e6eeeb5c2"],
+Cell[22767, 630, 220, 4, 31, "CodeText",ExpressionUUID->"c270f9fc-8abd-4f24-9579-de6e6eeeb5c2"],
 Cell[CellGroupData[{
-Cell[14459, 390, 442, 8, 38, "Input",ExpressionUUID->"b88f6d21-1ea0-477b-8226-866eaa8088fb"],
-Cell[14904, 400, 517626, 8513, 294, "Output",ExpressionUUID->"2fc11023-23fd-47b3-a98e-8b45b6b54677"]
+Cell[23012, 638, 442, 8, 38, "Input",ExpressionUUID->"b88f6d21-1ea0-477b-8226-866eaa8088fb"],
+Cell[23457, 648, 517626, 8513, 294, "Output",ExpressionUUID->"2fc11023-23fd-47b3-a98e-8b45b6b54677"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[532579, 8919, 202, 4, 48, "Subsection",ExpressionUUID->"f9a42e24-3257-4b35-8468-5b9b14030d1c"],
+Cell[541132, 9167, 202, 4, 48, "Subsection",ExpressionUUID->"f9a42e24-3257-4b35-8468-5b9b14030d1c"],
 Cell[CellGroupData[{
-Cell[532806, 8927, 279, 6, 32, "Item",ExpressionUUID->"23725e37-0b94-4134-8840-3e06429a3ee9"],
-Cell[533088, 8935, 368, 7, 32, "Item",ExpressionUUID->"bee3c9e2-3b43-4b6a-a49c-4759285bf755"],
-Cell[533459, 8944, 354, 7, 32, "Item",ExpressionUUID->"dbcb970c-6f9d-4db4-a79d-bf832250a73f"],
-Cell[533816, 8953, 614, 12, 53, "Item",ExpressionUUID->"bc10a9b3-69df-4005-a8d5-ced40473c088"],
-Cell[534433, 8967, 164, 3, 25, "ItemParagraph",ExpressionUUID->"45adc6c5-230c-4768-bc0f-d209d54b2e52"]
+Cell[541359, 9175, 279, 6, 32, "Item",ExpressionUUID->"23725e37-0b94-4134-8840-3e06429a3ee9"],
+Cell[541641, 9183, 368, 7, 32, "Item",ExpressionUUID->"bee3c9e2-3b43-4b6a-a49c-4759285bf755"],
+Cell[542012, 9192, 354, 7, 32, "Item",ExpressionUUID->"dbcb970c-6f9d-4db4-a79d-bf832250a73f"],
+Cell[542369, 9201, 614, 12, 53, "Item",ExpressionUUID->"bc10a9b3-69df-4005-a8d5-ced40473c088"],
+Cell[542986, 9215, 164, 3, 25, "ItemParagraph",ExpressionUUID->"45adc6c5-230c-4768-bc0f-d209d54b2e52"]
 }, Open  ]],
-Cell[534612, 8973, 522, 12, 28, "Input",ExpressionUUID->"2b2894d8-bd5a-40ed-a540-970d598fc627"],
-Cell[535137, 8987, 156, 3, 25, "ItemParagraph",ExpressionUUID->"e4a7c9b3-efd3-4f8a-ac0e-eca8225111e0"],
-Cell[535296, 8992, 949, 23, 36, "Input",ExpressionUUID->"99360939-2fe7-47b3-b848-f81efd7d4254"],
+Cell[543165, 9221, 522, 12, 28, "Input",ExpressionUUID->"2b2894d8-bd5a-40ed-a540-970d598fc627"],
+Cell[543690, 9235, 156, 3, 25, "ItemParagraph",ExpressionUUID->"e4a7c9b3-efd3-4f8a-ac0e-eca8225111e0"],
+Cell[543849, 9240, 949, 23, 36, "Input",ExpressionUUID->"99360939-2fe7-47b3-b848-f81efd7d4254"],
 Cell[CellGroupData[{
-Cell[536270, 9019, 785, 16, 53, "Item",ExpressionUUID->"3e1b1ac1-302f-459c-9ef2-8003e3b592bb"],
-Cell[537058, 9037, 514, 8, 32, "Item",ExpressionUUID->"ca9ed43d-27ae-4d28-8347-6020367f879a"],
-Cell[537575, 9047, 538, 8, 32, "Item",ExpressionUUID->"1a077ee6-c242-4a00-9676-3a54f1a60b86"]
+Cell[544823, 9267, 785, 16, 53, "Item",ExpressionUUID->"3e1b1ac1-302f-459c-9ef2-8003e3b592bb"],
+Cell[545611, 9285, 514, 8, 32, "Item",ExpressionUUID->"ca9ed43d-27ae-4d28-8347-6020367f879a"],
+Cell[546128, 9295, 538, 8, 32, "Item",ExpressionUUID->"1a077ee6-c242-4a00-9676-3a54f1a60b86"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
